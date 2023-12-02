@@ -47,5 +47,5 @@ function addingNumbers(array){
 addingNumbers(arrStrings);
 console.log(arrRezultatFinal)
 
-let x = arrRezultatFinal.reduce((a,b)=> a*1+b*1git config --global user.name "Mona Lisa",0 );
+let x = arrRezultatFinal.reduce((a,b)=> a*1+b*1,0 );
 console.log(x)
