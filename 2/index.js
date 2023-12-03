@@ -6,7 +6,7 @@ let p1 = document.getElementById("p");
 let p = p1.textContent.replace(/\s/g, "");
 const pSplit = p.split("Game")
 
-// console.log(pSplit)
+console.log(pSplit)
 
 // make it cleaner 
 //ex : "8:3green,10red,15blue;1green,9red;9blue,2green,12red"
@@ -71,5 +71,5 @@ function alpha(string) {
     }
 }
 
-alpha("blue;1green");
+alpha("green1blue");
 
